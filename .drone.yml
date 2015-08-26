@@ -19,7 +19,7 @@ clone:
   path: github.com/oliveiradandev/TestRepo1
 
 build:
-  #image: golang:1.5.0
+  image: gcc4.8
   commands:
     - export DEBUG=1 
     - cd src 

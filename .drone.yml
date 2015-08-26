@@ -1,0 +1,11 @@
+env:
+  - DEBUG=1
+script:
+  - cd src 
+  - make 
+#services:
+#  - redis
+notify:
+  email:
+    recipients:
+      - oliveiradandev@gmail.com

@@ -16,7 +16,7 @@ notify:
 # new .drone.yml syntax
 
 clone:
-  path: github.com/oliveiradandev/TestRepo1
+  path: github.com/oliveiradandev/TestRepo1/tree/myTest1
 
 build:
   #image: golang:1.5.0
